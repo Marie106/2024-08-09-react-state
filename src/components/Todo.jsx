@@ -3,7 +3,7 @@ import { useState } from 'react';
 function Todo ({todo, editTodoText, completeTodo, deleteTodo}) {
     // this is because I was troubleshooting why 
     // editTodoText was not a function
-    // console.log(editTodoText)
+    console.log(editTodoText)
     const [showInput, setShowInput] = useState(false);
     return (
         <li>
